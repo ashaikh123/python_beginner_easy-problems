@@ -1,0 +1,10 @@
+    A=input()
+    txt=A.split()
+    if int(txt[0])>int(txt[1]):
+        if int(txt[0])>int(txt[2]):
+            print(int(txt[0]));
+    elif int(txt[1])>int(txt[2]):
+        print(int(txt[1]));
+    else:
+        print(int(txt[2]));
+    return 0
